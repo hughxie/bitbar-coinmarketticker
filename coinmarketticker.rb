@@ -58,7 +58,7 @@ class Coin
   end
 
   def to_s
-    "#{rising? ? '📈' : '📉'} #{symbol} $#{price_usd} (#{sign}#{percent_change}%)"
+    "#{rising? ? '🚀' : '⛷'} #{symbol} $#{price_usd} (#{sign}#{percent_change}%)"
   end
 
   def percent_change(period = DEFAULT_PERIOD)
